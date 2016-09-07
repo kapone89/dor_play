@@ -1,0 +1,44 @@
+#background {
+  position: fixed;
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: blur(20px) brightness(70%);
+  filter: blur(20px) brightness(70%);
+}
+
+#painting {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: contain;;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#info {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 15%;
+  background-color: rgba(0, 0, 0, 0.33);
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 2%;
+}
+
+#info-title {
+  color: white;
+  font-size: 5.0vh;
+}
+
+#info-description {
+  color: white;
+  font-size: 5.5vh;
+}

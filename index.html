@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en" id="app">
+    <head>
+        <meta charset="utf-8">
+
+        <title>{{ description }}</title>
+        <meta name="description" content="CPP Player">
+        <meta name="author" content="kapone89">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body id="app">
+        <div id="background" style="background-color: black"></div>
+        <div id="painting" style="background-image: url({{ image_url }})"></div>
+        <div id="info">
+          <h1 id="info-description">
+            {{ description }}
+          </h1>
+        </div>
+        <script src="libs/jquery.min.js"></script>
+        <script src="libs/lodash.min.js"></script>
+        <script src="libs/vue.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
